@@ -1,0 +1,17 @@
+{
+  "name": "@core/state",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@core/service": "workspace:*",
+    "@reduxjs/toolkit": "^2.2.0",
+    "react-redux": "^9.0.0"
+  }
+}

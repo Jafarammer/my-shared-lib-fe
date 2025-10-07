@@ -1,0 +1,9 @@
+{
+  "name": "my-shared-lib-fe",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}
